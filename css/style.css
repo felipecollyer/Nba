@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+img {
+  margin: 0;
+  max-width: 100%;
+}
+
+body {
+  background-color: #003985;
+}
+
+:root {
+}
+
+.container,
+section {
+  max-width: 1330px;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #003985;
+}
+
+header img {
+  height: 4rem;
+  display: block;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+nav a:hover {
+  color: #ed174b;
+  transition: 0.4s;
+}
+
+strong {
+  color: #fff;
+}
+
+/* section about */
+
+#about h2 {
+  text-align: center;
+  color: #fff;
+}
+
+#about .container {
+  display: flex;
+  gap: 2rem;
+  background-color: #003985;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+#about .container img {
+  width: 100%;
+  display: block;
+}
+
+#about .container .text h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #ed174b;
+}
+
+#about .container .text {
+  font-size: 1.2rem;
+  padding: 1rem;
+  align-self: center;
+  color: rgb(169, 169, 169);
+  background-color: #006bb737;
+}
+
+/* SECTION FRANQUIAS */
+
+#franquias .container {
+  display: grid;
+  grid-template-columns: repeat(10, 90px);
+  grid-template-rows: repeat(3, 150px);
+  justify-content: space-around;
+  gap: 10px;
+  height: 600px;
+  width: 100%;
+  background-color: #006bb737;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+#franquias .container h2 {
+  display: grid;
+  justify-content: center;
+  grid-column: 1/-1;
+  align-items: center;
+  color: #fff;
+}
+
+#franquias .container img {
+  height: 80px;
+}
+
+#franquias .container img:hover {
+  height: 90px;
+}
+
+/* SECTION CONTATO */
+
+#contato h2 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#contato .container h3 {
+  color: rgb(169, 169, 169);
+}
+
+#contato .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+#contato .container form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contato .container input,
+textarea,
+button {
+  width: 320px;
+  padding: 0.5rem;
+  resize: none;
+  margin: 1rem 0;
+}
+
+#contato .container button:hover {
+  background-color: #ed174b;
+  transition: 0.4s;
+  color: #fff;
+  font-weight: bolder;
+}
+
+#contato .container .img-social {
+  display: flex;
+  justify-content: space-between;
+}
+
+#contato .container .social img {
+  margin: 10px 0;
+  height: 30px;
+}
+
+#contato .container .local iframe {
+  margin: 10px 0;
+}
+
+/* FOOTER */
+
+footer .container {
+  border-top: 2px solid #006bb737;
+  color: #ed174b;
+  text-align: center;
+  font-size: 1rem;
+  padding: 1rem;
+  margin-bottom: 0rem;
+}
